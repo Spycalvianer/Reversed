@@ -12,9 +12,17 @@ namespace Comandos
             Debug.Log("Right");
 
         }
-        private void EndeedAction()
+        private void Staraction()
         {
-           
+          
+            //switch ()
+            //    {
+            //    case TileType.groundtile:
+            //        //hacer x accion
+            //        return;
+
+            //}
+
         }
 
     }
