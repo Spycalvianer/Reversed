@@ -11,16 +11,10 @@ enum TileType
 
 public class Tile : MonoBehaviour
 {
-    Transform pointTogo;
+    public Transform pointTogo;
     // Start is called before the first frame update
     void Start()
     {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
+        pointTogo = transform;
     }
 }
