@@ -108,6 +108,7 @@ GameObject:
   - component: {fileID: 6978465393588480784}
   - component: {fileID: 1949970935983085106}
   - component: {fileID: 1598479894091229305}
+  - component: {fileID: 4992623957520875973}
   m_Layer: 0
   m_Name: Ground
   m_TagString: Untagged
@@ -157,3 +158,44 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: -0.5, z: 0}
+--- !u!114 &4992623957520875973
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6387516496490971516}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 378bddd06cbcbf04c91dac955b733215, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  prefabId: 0
+  moveOnPoints: 0
+  buildTime: 0
+  objectSize:
+    pos_m2_p2: 0
+    pos_m1_p2: 0
+    pos_0_p2: 0
+    pos_p1_p2: 0
+    pos_p2_p2: 0
+    pos_m2_p1: 0
+    pos_m1_p1: 0
+    pos_0_p1: 0
+    pos_p1_p1: 0
+    pos_p2_p1: 0
+    pos_m2_0: 0
+    pos_m1_0: 0
+    pos_0_0: 1
+    pos_p1_0: 0
+    pos_p2_0: 0
+    pos_m2_m1: 0
+    pos_m1_m1: 0
+    pos_0_m1: 0
+    pos_p1_m1: 0
+    pos_p2_m1: 0
+    pos_m2_m2: 0
+    pos_m1_m2: 0
+    pos_0_m2: 0
+    pos_p1_m2: 0
+    pos_p2_m2: 0
